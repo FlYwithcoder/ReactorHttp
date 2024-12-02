@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libHTTP.so -o ../../lib/libHTTP.so CMakeFiles/HTTP.dir/HttpRequest.cpp.o CMakeFiles/HTTP.dir/Httpresponse.cpp.o   -L/home/hf/CPPProjects/reactorHTTP/ReactorHttp/lib 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libTCP.so -o ../../lib/libTCP.so CMakeFiles/TCP.dir/TcpConnection.cpp.o CMakeFiles/TCP.dir/TcpServer.cpp.o   -L/home/hf/CPPProjects/reactorHTTP/ReactorHttp/lib  -Wl,-rpath,/home/hf/CPPProjects/reactorHTTP/ReactorHttp/lib ../../lib/libCOMMON.so ../../lib/libHTTP.so ../../lib/libREACTOR.so 

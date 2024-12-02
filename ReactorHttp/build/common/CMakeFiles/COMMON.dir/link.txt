@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libCOMMON.so -o ../../lib/libCOMMON.so CMakeFiles/COMMON.dir/Buffer.cpp.o CMakeFiles/COMMON.dir/Channel.cpp.o CMakeFiles/COMMON.dir/EventLoop.cpp.o   -L/home/hf/CPPProjects/reactorHTTP/ReactorHttp/lib  -Wl,-rpath,/home/hf/CPPProjects/reactorHTTP/ReactorHttp/lib ../../lib/libREACTOR.so 
