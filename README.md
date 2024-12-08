@@ -10,7 +10,10 @@
 # reactorHttp
 此项目是基于线程池的Reactor模式驱动的简易WEB服务器，应用层实现了一个简单的HTTP服务器，支持GET静态资源访问与动态CGI请求。  
 
-主要工作：  
+## 项目框架
+![image](https://github.com/FlYwithcoder/ReactorHttp/blob/main/TestFile/png_test/%E6%A1%86%E6%9E%B6.png?raw=true)
+
+## 主要工作：  
 
 1、实现基于 Reactor 模式的服务器架构，通过事件驱动的方式处理并发连接；  
 
